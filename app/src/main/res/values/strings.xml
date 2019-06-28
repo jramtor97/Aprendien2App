@@ -1,0 +1,138 @@
+<resources>
+    <!-- Strings related to login -->
+    <string name="app_name" translatable="false">Books4Exhange</string>
+    <string name="hint_usr">Username</string>
+    <string name="hint_psswd">Password</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login">Log in</string>
+    <string name="remember">Remember me</string>
+    <string name="title_activity_login">Log in</string>
+
+    <!-- Strings related to signup -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_user">User</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_again">Repeat password</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_field_required">Required field</string>
+    <string name="title_activity_sign_up">Sign up</string>
+
+    <!-- Settings Menu-->
+    <string name="Books4Exchange">Settings</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Spanish">Spanish</string>
+    <string name="English">English</string>
+    <string name="French">French</string>
+
+    <string name="Deuteranopia">Style 1</string>
+    <string name="Tritanopia">Style 2</string>
+    <string name="Protanopia">Style 3</string>
+    <string name="Default">Style 4</string>
+
+    <string name="Small">Small</string>
+    <string name="Medium">Medium</string>
+    <string name="Large">Large</string>
+
+    <string-array name="styles">
+        <item>@string/Deuteranopia</item>
+        <item>@string/Tritanopia</item>
+        <item>@string/Protanopia</item>
+        <item>@string/Default</item>
+    </string-array>
+
+    <string-array name="stylesID">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="text_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="text_sizesID">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>@string/Spanish</item>
+        <item>@string/English</item>
+        <item>@string/French</item>
+    </string-array>
+
+    <string-array name="language_ids">
+        <item>es</item>
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Textsize">Text size</string>
+    <string name="testSizeDescription">Set the text size</string>
+    <string name="Style">Style</string>
+    <string name="tahnksSignUp">Thanks for signing up</string>
+    <string name="go_to_the_app">Go to the app</string>
+    <string name="basic_settings">Basic settings</string>
+    <string name="language">Language</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="new_exchanges">New exchanges</string>
+    <string name="more">More</string>
+    <string name="news">New</string>
+    <string name="start">Start</string>
+    <string name="Exchanges">Exchanges</string>
+    <string name="Events">Events</string>
+    <string name="voice_sound">Voice and sound</string>
+    <string name="voice_recognition">Voice recognition</string>
+    <string name="text_speech">Text-to-speech</string>
+    <string name="vibration">Vibration</string>
+    <string name="passDifferent">The password is different</string>
+    <string name="new_advert">New advert</string>
+    <string name="title">Title</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="a_o">Year</string>
+    <string name="cancel">Cancel</string>
+    <string name="success_upload">Successfully uploaded</string>
+    <string name="auth_success">Authentication succeeded.</string>
+    <string name="auth_failed">Authentication failed.</string>
+    <string name="auth_error">Authentication error</string>
+    <string name="finger_not_permission">Fingerprint authentication permission not enabled</string>
+    <string name="include_fingerprint">Register at least one fingerprint in Settings</string>
+    <string name="finger_auth_disable">Fingerprint authentication permission not enabled</string>
+    <string name="lock_screen">Lock screen security not enabled in Settings</string>
+    <string name="not_compatible_finger">Device not compatible with this feature</string>
+
+
+    <!-- Voice recognition commands -->
+    <string name="add">new advert</string>
+    <string name="goSettings">go to settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="general">General</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="process">Process</string>
+    <string name="receive_item">Receive item</string>
+    <string name="ok">Ok</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.aprendien2app">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/UniversalStyle">
+        <activity android:name="com.example.pc.aprendien2app.MainActivity" />
+        <activity
+            android:name="com.example.pc.aprendien2app.Login"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pc.aprendien2app.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.example.pc.aprendien2app.Settings.SettingsActivity"
+            android:label="@string/title_activity_sign_up"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.example.pc.aprendien2app.SuccessSignUp" />
+        <activity android:name="com.example.pc.aprendien2app.ConfigAssistant1" />
+        <activity android:name="com.example.pc.aprendien2app.AddAdvert" />
+        <activity
+            android:name="com.example.pc.aprendien2app.ReadQR"
+            android:label="@string/receive_item" />
+        <activity
+            android:name="com.example.pc.aprendien2app.LoginFinger"
+            android:label="Fingerprint" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name="com.example.pc.aprendien2app.Deliver">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+    </application>
+
+</manifest>

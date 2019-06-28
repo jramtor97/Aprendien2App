@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Adverts"
+            android:id="@+id/menu_adverts"/>
+
+        <item
+            android:title="Contact user"
+            android:id="@+id/menu_contact"/>
+        <item
+            android:title="Receive item"
+            android:id="@+id/menu_receive"/>
+
+        <item
+            android:title="Deliver item"
+            android:id="@+id/menu_deliver"/>
+        <item
+            android:title="My history"
+            android:id="@+id/menu_history"/>
+
+        <item
+            android:title="About"
+            android:id="@+id/menu_about"/>
+    </group>
+
+</menu>

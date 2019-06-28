@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryColor">#ab47bc</color>
+    <color name="primaryLightColor">#df78ef</color>
+    <color name="primaryDarkColor">#790e8b</color>
+    <color name="secondaryColor">#0088d1</color>
+    <color name="secondaryLightColor">#5db8ff</color>
+    <color name="secondaryDarkColor">#005b9f</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="Deuteranopia_primaryColor">#8e24aa</color>
+    <color name="Deuteranopia_primaryDarkColor">#5c007a</color>
+    <color name="Deuteranopia_secondaryColor">#8e24aa</color>
+    <color name="Deuteranopia_primaryTextColor">#000000</color>
+    <color name="Deuteranopia_secondaryTextColor">#000000</color>
+
+    <color name="Tritanopia_primaryColor">#c51162</color>
+    <color name="Tritanopia_primaryDarkColor">#8e0038</color>
+    <color name="Tritanopia_secondaryColor">#c51162</color>
+    <color name="Tritanopia_primaryTextColor">#000000</color>
+    <color name="Tritanopia_secondaryTextColor">#000000</color>
+
+    <color name="Protanopia_primaryColor">#0277bd</color>
+    <color name="Protanopia_primaryLightColor">#58a5f0</color>
+    <color name="Protanopia_primaryDarkColor">#004c8c</color>
+    <color name="Protanopia_secondaryColor">#01579b</color>
+    <color name="Protanopia_secondaryLightColor">#4f83cc</color>
+    <color name="Protanopia_secondaryDarkColor">#002f6c</color>
+    <color name="Protanopia_primaryTextColor">#000000</color>
+    <color name="Protanopia_secondaryTextColor">#000000</color>
+
+</resources>

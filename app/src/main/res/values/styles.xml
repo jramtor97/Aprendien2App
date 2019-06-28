@@ -1,0 +1,120 @@
+<resources>
+
+    <style name="MarginSize">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <!-- Color blindness -->
+
+    <style name="Deuteranopia" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="Deuteranopia.Small" parent="TextAppearance.Small">
+        <item name="colorPrimary">@color/Deuteranopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Deuteranopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Deuteranopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Deuteranopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Deuteranopia_secondaryTextColor</item>
+    </style>
+    <style name="Deuteranopia.Medium" parent="TextAppearance.Medium">
+        <item name="colorPrimary">@color/Deuteranopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Deuteranopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Deuteranopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Deuteranopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Deuteranopia_secondaryTextColor</item>
+    </style>
+    <style name="Deuteranopia.Large" parent="TextAppearance.Large">
+        <item name="colorPrimary">@color/Deuteranopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Deuteranopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Deuteranopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Deuteranopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Deuteranopia_secondaryTextColor</item>
+    </style>
+
+
+    <style name="Tritanopia" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="Tritanopia.Small" parent="TextAppearance.Small">
+        <item name="colorPrimary">@color/Tritanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Tritanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Tritanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Tritanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Tritanopia_secondaryTextColor</item>
+    </style>
+    <style name="Tritanopia.Medium" parent="TextAppearance.Medium">
+        <item name="colorPrimary">@color/Tritanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Tritanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Tritanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Tritanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Tritanopia_secondaryTextColor</item>
+    </style>
+    <style name="Tritanopia.Large" parent="TextAppearance.Large">
+        <item name="colorPrimary">@color/Tritanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Tritanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Tritanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Tritanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Tritanopia_secondaryTextColor</item>
+    </style>
+
+
+    <style name="Protanopia" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="Protanopia.Small" parent="TextAppearance.Small">
+        <item name="colorPrimary">@color/Protanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Protanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Protanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Protanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Protanopia_secondaryTextColor</item>
+    </style>
+    <style name="Protanopia.Medium" parent="TextAppearance.Medium">
+        <item name="colorPrimary">@color/Protanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Protanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Protanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Protanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Protanopia_secondaryTextColor</item>
+    </style>
+    <style name="Protanopia.Large" parent="TextAppearance.Large">
+        <item name="colorPrimary">@color/Protanopia_primaryColor</item>
+        <item name="colorPrimaryDark">@color/Protanopia_primaryDarkColor</item>
+        <item name="colorAccent">@color/Protanopia_secondaryColor</item>
+        <item name="android:textColorPrimary">@color/Protanopia_primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/Protanopia_secondaryTextColor</item>
+    </style>
+
+
+    <style name="UniversalStyle" parent="@style/Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="UniversalStyle.Small" parent="TextAppearance.Small">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/secondaryColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="UniversalStyle.Medium" parent="TextAppearance.Medium">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/secondaryColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="UniversalStyle.Large" parent="TextAppearance.Large">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/secondaryColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance"></style>
+
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>
